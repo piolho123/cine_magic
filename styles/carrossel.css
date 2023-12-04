@@ -12,7 +12,6 @@
 
 /* DIV PARA AJEITAR O LOCAL DA movie-list-item */
 .movie-list{
-    margin: 300px 0 0 0;
     display: flex;
     height: 500px;
     transform: translateX(0);
@@ -50,15 +49,20 @@
 }
 
 
-/* TAMANHO DA IMAGEM DE ANIMES */
-.movie-list-item-img2{
-    transition: all 1s ease-in-out;
-    width: 150px; 
-    height: 250px;
-    margin: 20px;
-    object-fit: cover;
-    border-radius: 20px;
+
+
+.movie-list-title{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 450px 0 0 100px;
 }
+.movie-list-title_2{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 200px 0 0 100px;
+}
+
+
 
 
 /* TAMANHO PARA CELULAR */
@@ -69,13 +73,23 @@
     }
 
 
-/* TAMANHO DA IMAGEM/FILMES */
-.movie-list-item-img{
-    width: 220px; 
-    height: 130px;
-}
-.movie-list{
-    height: 800px;
-    margin: 100px 0 0 0;
-}
+    /* TAMANHO DA IMAGEM/FILMES */
+    .movie-list-item-img{
+        width: 220px; 
+        height: 130px;
+    }
+    .movie-list{
+        height: 800px;
+        margin: 20px 0 0 0;
+    }
+    .movie-list-title{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 100px 0 0 50px;
+    }
+    .movie-list-title_2{
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 100px 0 0 50px;
+    }
 }
