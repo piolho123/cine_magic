@@ -1,0 +1,58 @@
+@import url('./background.css');
+@import url('./header.css');
+@import url('./main.css');
+@import url('./carrossel.css');
+@import url('./notificação.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+:root {
+  --roxo: #9824f8;
+  --text: #EDF1F7;
+  --red: #C51212;
+  --blue: #0041C2;
+  --verde: #14B02D;
+  --yellow: #ffc12b;
+}
+
+body, button, a {
+  color: var(--text);
+  font: 400 1rem "Mukta", sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Barra De Rolamento */
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: #070c18;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 20px;
+  background-image: linear-gradient(black, black, var(--verde),var(--verde), black, black);
+}
+

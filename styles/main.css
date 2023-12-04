@@ -1,0 +1,133 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440px;
+}
+
+
+.main__info{
+    margin-top: 150px;
+    width: 100%;
+    max-width: 570px;
+}
+
+.main__info p{
+    font-size: 18px;
+    margin: 10px 0 50px;
+}
+
+.main__info div{
+    display: flex;
+    column-gap: 35px;
+}
+
+.main__info div a{
+    width: 50%;
+    padding: 10px 0;
+    border-radius: 3px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    background: var(--verde);
+    transform: skew(-10deg);
+}
+.main__info div a{
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--verde);
+    z-index: 1;
+}
+
+
+.main__info div a::before, .main__info div a::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--verde);
+    transition: 1s ease;
+}
+
+.main__info div a::before{
+    top: -1em;
+    left: -1em;
+}
+
+.main__info div a::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.main__info div a:hover::before, .main__info div a:hover::after{
+    height: 410px;
+    width: 410px;
+}
+
+.main__info div a:hover{
+    color: rgb(21, 10, 30);
+}
+
+.main__info div a:active{
+    filter: brightness(.8);
+}
+
+
+
+
+.download_film{
+    scale: 0.2;
+    position: absolute;
+    top: 520px;
+    left: 450px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1020px){
+
+    .main__info p {
+        font-size: 9px;
+        margin: -50px 240px 20px 30px;
+    }
+    .main__info img{
+        position: absolute;
+        width: 90px;
+        margin: -150px 240px 20px 30px;
+    }
+    .main__info div{
+        position: absolute;
+        top: 240px;
+        left: 150px;
+        width: 100%;
+        scale: 0.4;
+    }
+    .download_film{
+        top: 375px;
+        left: 190px;
+    }
+}
