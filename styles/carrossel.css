@@ -8,7 +8,7 @@
 /* DIV PARA AJEITAR O LOCAL DA movie-list-item */
 .movie-list{
     display: flex;
-    height: 460px;
+    height: 500px;
     transform: translateX(0);
     transition: all 1s ease-in-out;
     padding: 15px 0 0 0 ;
@@ -37,8 +37,8 @@
 /* TAMANHO DA IMAGEM/FILMES */
 .movie-list-item-img{
     transition: all 1s ease-in-out;
-    width: 290px; 
-    height: 180px;
+    width: 320px; 
+    height: 200px;
     object-fit: cover;
     border-radius: 20px;
 }
