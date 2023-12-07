@@ -103,7 +103,7 @@ main{
 
     .main__info p {
         font-size: 9px;
-        margin: -50px 240px 20px 30px;
+        margin: -50px 100px 0 30px;
     }
     .main__info img{
         position: absolute;
@@ -112,8 +112,8 @@ main{
     }
     .main__info div{
         position: absolute;
-        top: 240px;
-        left: 50px;
+        top: 200px;
+        left: 0px;
         width: 100%;
         scale: 0.4;
     }

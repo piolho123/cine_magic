@@ -3,6 +3,9 @@
 @import url('./main.css');
 @import url('./carrossel.css');
 @import url('./notificação.css');
+@import url('./info.css');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
   padding: 0;
@@ -22,7 +25,7 @@
 
 body, button, a {
   color: var(--text);
-  font: 400 1rem "Mukta", sans-serif;
+  font-family: 'Roboto Mono', monospace;
   height: 100%;
   overflow-x: hidden;
 
