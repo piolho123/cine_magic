@@ -63,10 +63,20 @@
 }
 
 
+@media screen and (max-width: 440px){
+
+    .movie-list-item-img{
+        width: 170px; 
+        height: 100px;
+    }
+}
+
+
+
 
 
 /* TAMANHO PARA CELULAR */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1020px){
     .movie-list-item{
         padding: 10px;
         margin-right: 5px;
