@@ -63,16 +63,6 @@
 }
 
 
-@media screen and (max-width: 440px){
-
-    .movie-list-item-img{
-        width: 170px; 
-        height: 100px;
-    }
-}
-
-
-
 
 
 /* TAMANHO PARA CELULAR */
@@ -85,11 +75,11 @@
 
     /* TAMANHO DA IMAGEM/FILMES */
     .movie-list-item-img{
-        width: 220px; 
-        height: 130px;
+        width: 400px; 
+        height: 210px;
     }
     .movie-list{
-        height: 800px;
+        height: 2600px;
         margin: 20px 0 0 0;
     }
     .movie-list-title{
