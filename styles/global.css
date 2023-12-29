@@ -4,6 +4,7 @@
 @import url('./carrossel.css');
 @import url('./notificação.css');
 @import url('./info.css');
+@import url('./cookies.css');
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
@@ -22,7 +23,6 @@
   --verde: #14B02D;
   --yellow: #ffc12b;
 }
-
 body, button, a {
   color: var(--text);
   font-family: 'Roboto Mono', monospace;
